@@ -2,6 +2,7 @@ import { Address, beginCell, Cell, Contract, contractAddress, ContractProvider, 
 
 export type CounterConfig = {};
 
+// @ts-ignore
 export function counterConfigToCell(config: CounterConfig): Cell {
     return beginCell().endCell();
 }
